@@ -1,0 +1,7 @@
+load_from:
+  - python_module:
+      module_name: dagster_abnb.definitions
+      working_directory: dagster_abnb
+  - python_module:
+      module_name: llm_pipeline
+      working_directory: llm_pipeline

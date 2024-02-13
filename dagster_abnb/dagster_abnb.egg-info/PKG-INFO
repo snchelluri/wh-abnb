@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dagster_abnb
+Version: 0.0.0
+Requires-Dist: dagster
+Requires-Dist: dagster-cloud
+Requires-Dist: snowflake-connector-python[pandas]
+Requires-Dist: dagster-dbt
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: dbt-snowflake
+Requires-Dist: dagster-snowflake-pandas
+Provides-Extra: dev
+Requires-Dist: dagster-webserver; extra == "dev"
+Requires-Dist: pytest; extra == "dev"

@@ -1,0 +1,12 @@
+dagster
+dagster-cloud
+snowflake-connector-python[pandas]
+dagster-dbt
+pandas
+pyarrow
+dbt-snowflake
+dagster-snowflake-pandas
+
+[dev]
+dagster-webserver
+pytest
